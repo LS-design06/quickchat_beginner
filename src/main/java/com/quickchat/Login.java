@@ -140,20 +140,19 @@ public class Login {
     /**
      * This method checks the cell phone number.
      */
-    public boolean checkCellPhoneNumber() {
-        if (cellPhone == null) {
-            return false;
-        }
-
-    
-        String pattern = "^\\+\\d{1,9}$";
-
-        if (cellPhone.matches(pattern) && cellPhone.length() <= 10) {
-            return true;
-        } else {
-            return false;
-        }
+public boolean checkCellPhoneNumber() {
+    if (cellPhone == null) {
+        return false;
     }
+
+    String pattern = "^\\+27\\d{9}$";
+
+    if (cellPhone.matches(pattern)) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
     /**
      * This method registers the user.
