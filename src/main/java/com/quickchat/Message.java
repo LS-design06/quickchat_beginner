@@ -12,8 +12,6 @@ import java.util.Random;
  * Message class for QuickChat.
  * This is for Part 2 of the PROG5121 PoE.
  * 
- * I used the org.json library for JSON.
- * I found out about it from: https://github.com/stleary/JSON-java
  */
 public class Message {
 
