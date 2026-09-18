@@ -4,8 +4,6 @@ package com.quickchat;
  * Login class for QuickChat.
  * This is for Part 1 of the PROG5121 PoE.
  * 
- * I learned about regex from this website:
- * https://www.w3schools.com/java/java_regex.asp
  */
 public class Login {
 
