@@ -6,7 +6,6 @@ import java.util.Scanner;
 /**
  * Main QuickChat application.
  * This combines Part 1, Part 2 and Part 3.
- * Console application only - no GUI allowed.
  */
 public class QuickChat {
 
