@@ -3,7 +3,6 @@ package com.quickchat;
 /**
  * Login class for QuickChat.
  * This is for Part 1 of the PROG5121 PoE.
- * 
  */
 public class Login {
 
@@ -140,15 +139,13 @@ public class Login {
 
     /**
      * This method checks the cell phone number.
-     * I used regex for this because the brief said to research it.
-     * Regex source: https://www.w3schools.com/java/java_regex.asp
      */
     public boolean checkCellPhoneNumber() {
         if (cellPhone == null) {
             return false;
         }
 
-        // regex pattern: starts with + then has digits, total length 10 or less
+    
         String pattern = "^\\+\\d{1,9}$";
 
         if (cellPhone.matches(pattern) && cellPhone.length() <= 10) {
