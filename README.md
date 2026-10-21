@@ -1,6 +1,6 @@
 Programming Part 2 –  message java
 Project Contents
-This repository contains beginner-level Java login programs and their test files.
+This repository contains beginner-level message programs and their test files.
  Files Included
  as per the word doc
 - Message.java– Main login code implementation  
